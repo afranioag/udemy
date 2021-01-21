@@ -24,10 +24,7 @@ public class CategoriaResource {
     @GetMapping("/{id}")
     public ResponseEntity<?> find(@PathVariable long id) {
 
-       Categoria categoria = categoriaService.buscar(id);
-        System.out.println(categoria.getId());
-    // esta tendo um pequeno erro ao retornar a classe categoria
-        return ResponseEntity.ok().body(categoria);
+        return ResponseEntity.ok().body(categoriaService.buscar(id));
     }
 
 

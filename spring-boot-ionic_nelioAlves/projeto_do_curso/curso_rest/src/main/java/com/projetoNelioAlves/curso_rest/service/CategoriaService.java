@@ -16,9 +16,7 @@ public class CategoriaService {
     }
 
     public Categoria buscar(long id){
-       Categoria cate = categoriaRepository.getOne(id);
-
-        return cate;
+      return  categoriaRepository.findById(id).get();
     }
 
 }
