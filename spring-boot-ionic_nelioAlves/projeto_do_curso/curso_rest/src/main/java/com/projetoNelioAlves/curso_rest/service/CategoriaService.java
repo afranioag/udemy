@@ -15,7 +15,7 @@ public class CategoriaService {
 
     }
 
-    public Categoria buscar(long id){
+    public Categoria buscar(Integer id){
       return  categoriaRepository.findById(id).get();
     }
 

@@ -22,7 +22,7 @@ public class CategoriaResource {
     private CategoriaService categoriaService;
 
     @GetMapping("/{id}")
-    public ResponseEntity<?> find(@PathVariable long id) {
+    public ResponseEntity<?> find(@PathVariable Integer id) {
 
         return ResponseEntity.ok().body(categoriaService.buscar(id));
     }
