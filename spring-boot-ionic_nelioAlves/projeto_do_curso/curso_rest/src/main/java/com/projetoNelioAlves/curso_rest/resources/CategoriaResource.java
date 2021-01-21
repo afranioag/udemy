@@ -3,8 +3,12 @@ package com.projetoNelioAlves.curso_rest.resources;
 import java.util.ArrayList;
 import java.util.List;
 import com.projetoNelioAlves.curso_rest.domain.Categoria;
+import com.projetoNelioAlves.curso_rest.service.CategoriaService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.quartz.QuartzTransactionManager;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -14,21 +18,17 @@ import java.util.ArrayList;
 @RequestMapping(value = "/categorias")
 public class CategoriaResource {
 
-    @GetMapping
-    public List<Categoria> listar(){
-        Categoria cat1 = new Categoria(1, "informatica");
-        Categoria cat2 = new Categoria(2,"escritoire");
+    @Autowired
+    private CategoriaService categoriaService;
 
-        List<Categoria> umCu = new ArrayList<Categoria>();
+    @GetMapping("/{id}")
+    public ResponseEntity<?> find(@PathVariable long id) {
 
-        umCu.add(cat1);
-        umCu.add(cat2);
-
-        return umCu;
+       Categoria categoria = categoriaService.buscar(id);
+        System.out.println(categoria.getId());
+    // esta tendo um pequeno erro ao retornar a classe categoria
+        return ResponseEntity.ok().body(categoria);
     }
 
-    @GetMapping("/api")
-    public String nome(){
-        return "maria";
-    }
+
 }
