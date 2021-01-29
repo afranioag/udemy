@@ -1,0 +1,11 @@
+com/nelioalves/cursomc/domain/Pedido.class
+com/nelioalves/cursomc/domain/Endereco.class
+com/nelioalves/cursomc/repositories/CategoriaRepository.class
+com/nelioalves/cursomc/domain/enums/TipoCliente.class
+com/nelioalves/cursomc/domain/Pagamento.class
+com/nelioalves/cursomc/domain/Estado.class
+com/nelioalves/cursomc/domain/Produto.class
+com/nelioalves/cursomc/domain/Cliente.class
+com/nelioalves/cursomc/domain/Categoria.class
+com/nelioalves/cursomc/domain/enums/EstadoPagamento.class
+com/nelioalves/cursomc/domain/Cidade.class
