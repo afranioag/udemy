@@ -6,10 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="8822d8a3-ce88-490c-ac29-a31f65ac6a73" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nelioalves/cursomc/CursomcApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nelioalves/cursomc/CursomcApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nelioalves/cursomc/domain/Pedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nelioalves/cursomc/domain/Pedido.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/nelioalves/cursomc/domain/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nelioalves/cursomc/domain/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nelioalves/cursomc/domain/ItemPedidoPK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nelioalves/cursomc/domain/ItemPedidoPK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/nelioalves/cursomc/services/ClienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/nelioalves/cursomc/services/ClienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/nelioalves/cursomc/services/ClienteService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/nelioalves/cursomc/services/ClienteService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +39,12 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.nelioalves.cursomc.resources" />
+      <recent name="com.nelioalves.cursomc.services" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="CursomcApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
